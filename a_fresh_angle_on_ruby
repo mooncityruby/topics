@@ -2,11 +2,23 @@ A Fresh Angle On Ruby
 
 I recently started playing around with AngularJS and I have to say I've been thoroughly impressed.
 
-I'm an advocate for separating a webpage's basic 3 components into their respective files: content (HTML), style (CSS), and behavior (Javascript). Mainly, this urge stems from my brief experiences with (amateur) PHP scripting. I'm not a fan of the seeming randomness of switching between the HTML and PHP modes. If a public speaker's sole intent is to slap their audience in the face with their point during their speech, so should a software engineer with the code they write. PHP requires me to think too hard about when I'm dynamically injecting content, when I'm modifying behavior, etc. It distracts from the point of the document. I like things that do one thing, and do it well[1]. However, Angular introduces a way to blend the three together in such a way that I forget they're three separate concepts. A master Angularor has the Avatar-like power to control content, style, and behavior, all from a syntax that rarely breaks the mold of familiar HTML.
+I'm an advocate for separating a webpage's basic 3 components into their respective files: content (HTML), style (CSS),
+and behavior (Javascript). Mainly, this urge stems from my brief experiences with (amateur) PHP scripting. I'm not a fan
+of the seeming randomness of switching between the HTML and PHP modes. If a public speaker's sole intent is to slap their
+audience in the face with their point during their speech, so should a software engineer with the code they write.
+PHP requires me to think too hard about when I'm dynamically injecting content, when I'm modifying behavior, etc.
+It distracts from the point of the document. I like things that do one thing, and do it well[1]. However, Angular
+introduces a way to blend the three together in such a way that I forget they're three separate concepts. A master Angularor
+has the Avatar-like power to control content, style, and behavior, all from a syntax that rarely breaks the mold of familiar HTML.
 
-Directives allow developers to customize HTML element tags and attributes so the documents are more expressive about what they're actually processing and displaying. A personal favorite of mine is the <ng-repeat> attribute directive[2].
+Directives allow developers to customize HTML element tags and attributes so the documents are more expressive about what
+they're actually processing and displaying. A personal favorite of mine is the <ng-repeat> attribute directive[2].
 
-But now this would be somewhat out of scope if all we did was talk Angular, right? My goal for this discussion is to introduce you to the awesomeness of Angular, point you in the direction of where you can learn more about it, show off a simple example, and then dive into what Ruby has to offer in terms of dynamically building HTML templates and the like. To be honest, my current knowledge only spans ERB and HAML, so it will be a journey for us all as I investigate what else may lay in the well-kept secrets of Matz's masterpiece. Until then, satiate yourselves with the provided sources.
+But now this would be somewhat out of scope if all we did was talk Angular, right? My goal for this discussion is to
+introduce you to the awesomeness of Angular, point you in the direction of where you can learn more about it, show off
+a simple example, and then dive into what Ruby has to offer in terms of dynamically building HTML templates and the like.
+To be honest, my current knowledge only spans ERB and HAML, so it will be a journey for us all as I investigate what
+else may lay in the well-kept secrets of Matz's masterpiece. Until then, satiate yourselves with the provided sources.
 
 Provided sources:
 http://lmgtfy.com/?q=angular+js
