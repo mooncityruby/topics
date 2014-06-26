@@ -14,8 +14,8 @@ That being said, let's focus on public libraries, generalized algorithms, design
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/ordered_week/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
+1. Fork it ( http://github.com/mooncityruby/topics/fork )
+2. Create your topic branch (`git checkout -b my-new-topic`)
+3. Commit your changes (`git commit -am 'My topic will cover the following: ...'`)
+4. Push to the branch (`git push origin my-new-topic`)
 5. Create new Pull Request
