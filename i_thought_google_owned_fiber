@@ -1,0 +1,19 @@
+I Thought Google Owned Fiber...?
+
+Everything I need to know about Ruby's Fiber class gave me a headache. In this potential talk, I hope
+to explain my findings in a much more concise, understandable way than the documentation[1].
+
+In addition, I'll touch on what this class could be used for, and a couple cases in which you may want
+to avoid it. Concurrency is tough if your design doesn't really want to work with it. Ask anyone who's
+worked with Ruby on Rails for a few years; if you try to use Rails, but not "the Rails way", DHH will
+personally haunt your dreams for months. Fibers (and any kind of concerrency, for that matter) can be
+the same way. What's more, Ruby isn't exactly built for concurrency, which just makes this whole process
+that much better.
+
+A few things we'll cover will include the Fiber class, the Thread class and a few compadres, the GIL,
+and what happens when you start mixing threads and fibers. If this talk is given, prepare for a mind-
+bender, but I'll try to keep it short and sweet, so you won't be reeling too long. After all, as much
+multitasking as we do on a daily basis, it's only a matter of time before someone may ask you to whip
+up an architecture that does so too. Best prepare now!
+
+[1] http://lmgtfy.com/?q=ruby+fiber
